@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    background-color: #40596b;
+}
+
+nav .container{
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+nav .container li{
+    padding: 16px;
+}
+nav .container li a{
+    color: #ffd05b;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+nav .container li a:hover{
+    color: #fff;
+    transition: color 0.5s;
+}
