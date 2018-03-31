@@ -41,11 +41,28 @@ nav .container li a:hover{
 }
 .title-area h1{
     color: #40596b;
-    font-size: 3.2em;
+    font-size: 3.9em;
 }
 .title-area p{
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.title-area a{
+    display: inline-block;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #ffd05b;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+.title-area a:hover{
+    padding: 17px 35px;
+    transition: padding 0.5s;
+}
+.title-area a span{
+    color: #40596b;
 }
 .title-area .container div{
     width: 50%;
