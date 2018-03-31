@@ -105,3 +105,35 @@ nav .container li a:hover{
     font-size: 1.1em;
     letter-spacing: 1px;
 }
+
+.how-it-works-section{
+    background-color: #90ddaa;
+}
+.how-it-works-section .container{
+    justify-content: space-around;
+}
+.how-it-works-section .title{
+    width: 100%;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+.how-it-works-section .title h2{
+    font-size: 2.2em;
+}
+.how-it-works-section .card{
+    width: 30%;
+    text-align: center;
+}
+.how-it-works-section .card .image{
+    width: 100%;
+    height: 300px;
+    background-color: #40596b;
+    border-radius: 5px 5px 0 0;
+}
+.how-it-works-section .card .para{
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 1.1em;
+    letter-spacing: 1px;   
+    background-color: #fafafa;
+}
