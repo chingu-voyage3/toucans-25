@@ -108,6 +108,7 @@ nav .container li a:hover{
 
 .how-it-works-section{
     background-color: #90ddaa;
+    padding: 0 0 50px 0;
 }
 .how-it-works-section .container{
     justify-content: space-around;
@@ -137,3 +138,45 @@ nav .container li a:hover{
     letter-spacing: 1px;   
     background-color: #fafafa;
 }
+
+.details{
+    text-align: center;
+    background-color: #fafafa;
+}
+.details .box{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.details h2{
+    font-size: 2.2em;
+}
+.details p{
+    line-height: 1.5;
+    font-size: 1.1em;
+    letter-spacing: 1px; 
+}
+.details a{
+    display: inline-block;
+    background-color: #40596b;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #fafafa;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+.footer{
+    padding: 10px;
+    background-color: #40596b;
+    color: #fafafa;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.5;
+    letter-spacing: 1px; 
+}
+.footer a{
+    color: #fafafa;
+}
+
